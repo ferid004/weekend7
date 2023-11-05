@@ -1,0 +1,105 @@
+header {
+    color: white;
+    background-color: #82b440;
+    min-height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .headerContainer {
+        width: 76%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .headerRow {
+            display: flex;
+            align-items: center;
+            #usd_id {
+                padding: 15px;
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                position: relative;
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+                .header_usd_ul {
+                    width: 150px;
+                    height: 0;
+                    opacity: 0;
+                    overflow: hidden;
+                    flex-direction: column;
+                    position: absolute;
+                    text-align: center;
+                    top: 54px;
+                    right: 20px;
+                    z-index: 199;
+                    background-color: white;
+                    transition: 500ms;
+                    li {
+                        padding: 10px;
+                        padding-left: 30px;
+                        padding-left: 5px;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            background-color: #82b440;
+                            color: white;
+                        }
+                    }
+                }
+                .active {
+                    height: inherit;
+                    opacity: 1;
+                    display: flex;
+                    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                }
+            }
+            #english_id {
+                padding: 15px;
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                position: relative;
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+                .header_en_ul {
+                    width: 150px;
+                    height: 0;
+                    opacity: 0;
+                    overflow: hidden;
+                    flex-direction: column;
+                    position: absolute;
+                    text-align: center;
+                    top: 54px;
+                    right: 20px;
+                    z-index: 199;
+                    background-color: white;
+                    transition: 500ms;
+                    li {
+                        padding: 10px;
+                        padding-left: 30px;
+                        padding-left: 5px;
+                        color: black;
+                        transition: 0.5s;
+                        &:hover {
+                            background-color: #82b440;
+                            color: white;
+                        }
+                    }
+                }
+                .active {
+                    height: inherit;
+                    opacity: 1;
+                    display: flex;
+                    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        display: none;
+    }
+}
