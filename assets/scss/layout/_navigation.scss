@@ -12,37 +12,29 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
         .container_main_left {
             display: flex;
             align-items: center;
             gap: 20px;
-
             a {
                 color: black;
             }
-
             div {
                 height: 40px;
-
                 img {
                     border-radius: 8px
                 }
             }
         }
-
         .container_main_middle {
             display: flex;
-
             div {
                 border-radius: 8px;
             }
         }
-
         .container_main_right {
             display: flex;
             gap: 16px;
-
             div {
                 width: 30px;
                 height: 30px;
@@ -50,7 +42,6 @@ nav {
         }
     }
     // navbar_container_main_end
-
     // navbar_container_nav_dev
     .container_nav_dev {
         width: 76%;
@@ -58,24 +49,18 @@ nav {
         display: flex;
         justify-content: center;
         align-items: center;
-
         #nav_home {
             position: relative;
             padding: 20px;
-
             &:hover a {
-
                 color: #82b440;
             }
-
             ul {
                 display: none;
                 position: absolute;
                 top: 55px;
                 left: 0;
-
             }
-
             &:hover ul {
                 width: 260px;
                 display: flex;
@@ -83,13 +68,11 @@ nav {
                 background-color: white;
                 color: white;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
                 li {
                     padding: 10px 0;
                     padding-left: 20px;
                     color: black;
                     transition: transform 1000ms, ;
-
                     &:hover {
                         transform: translateX(20px);
                         color: #82b440;
@@ -97,15 +80,12 @@ nav {
                 }
             }
         }
-
         #nav_shop {
             position: relative;
             padding: 20px;
-
             &:hover a {
                 color: #82b440;
             }
-
             .container_shop {
                 .xett {
                     align-self: center;
@@ -113,28 +93,23 @@ nav {
                     width: 1px;
                     height: 300px
                 }
-
                 position: absolute;
                 top: 55px;
                 left: -60px;
                 width: 600px;
                 display: none;
                 gap: 20px;
-
                 .ul_list {
                     h3 {
                         padding: 20px;
                         padding-left: 10px;
-
                         font-size: 20px;
                     }
-
                     li {
                         padding: 10px 0;
                         padding-left: 10px;
                         color: black;
                         transition: transform 1000ms, ;
-
                         &:hover {
                             transform: translateX(20px);
                             color: #82b440;
@@ -142,45 +117,35 @@ nav {
                     }
                 }
             }
-
             &:hover .container_shop {
                 background-color: white;
-
                 display: flex;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
             }
         }
-
         #nav_blog {
             position: relative;
             padding: 20px;
-
             ul {
                 display: none;
                 position: absolute;
                 top: 55px;
             }
-
             &:hover {
                 color: #82b440;
             }
-
             &:hover ul {
                 background-color: white;
-
                 width: 260px;
                 display: flex;
                 flex-direction: column;
                 color: white;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
                 li {
                     padding: 10px 0;
                     padding-left: 20px;
                     color: black;
                     transition: transform 1000ms, ;
-
                     &:hover {
                         transform: translateX(20px);
                         color: #82b440;
@@ -188,36 +153,29 @@ nav {
                 }
             }
         }
-
         #nav_about {
             position: relative;
             padding: 20px;
-
             ul {
                 display: none;
                 position: absolute;
                 top: 55px;
             }
-
             &:hover {
                 color: #82b440;
             }
-
             &:hover ul {
                 width: 260px;
                 background-color: white;
-
                 display: flex;
                 flex-direction: column;
                 color: white;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
                 li {
                     padding: 10px 0;
                     padding-left: 20px;
                     color: black;
                     transition: transform 1000ms, ;
-
                     &:hover {
                         transform: translateX(20px);
                         color: #82b440;
@@ -225,36 +183,29 @@ nav {
                 }
             }
         }
-
         #nav_pages {
             position: relative;
             padding: 20px;
-
             ul {
                 display: none;
                 position: absolute;
                 top: 55px;
             }
-
             &:hover {
                 color: #82b440;
             }
-
             &:hover ul {
                 background-color: white;
-
                 width: 260px;
                 display: flex;
                 flex-direction: column;
                 color: white;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
                 li {
                     padding: 10px 0;
                     padding-left: 20px;
                     color: black;
                     transition: transform 1000ms, ;
-
                     &:hover {
                         transform: translateX(20px);
                         color: #82b440;
@@ -262,36 +213,29 @@ nav {
                 }
             }
         }
-
         #nav_contact {
             position: relative;
             padding: 20px;
-
             ul {
                 display: none;
                 position: absolute;
                 top: 55px;
             }
-
             &:hover {
                 color: #82b440;
             }
-
             &:hover ul {
                 background-color: white;
-
                 width: 260px;
                 display: flex;
                 flex-direction: column;
                 color: white;
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
                 li {
                     padding: 10px 0;
                     padding-left: 20px;
                     color: black;
                     transition: transform 1000ms, ;
-
                     &:hover {
                         transform: translateX(20px);
                         color: #82b440;
@@ -301,7 +245,6 @@ nav {
         }
     }
     // navbar_container_nav_dev_end
-
     // dev navbar_end  
 }
 
@@ -310,64 +253,354 @@ nav {
         .nav_dev {
             display: none;
         }
-
         // tab navbar
         .nav_tab {
-            width: 100%;
+            width: 86%;
+            margin: auto;
             display: block;
-            position: relative;
-            .container_main {
-                width: 76%;
+            .top_nav {
                 height: 170px;
                 margin: auto;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .container_main_middle {
+                .pronia_logo {
                     display: flex;
-        
                     div {
                         border-radius: 8px;
                     }
                 }
-        
-                .container_main_right {
+                .icon {
                     display: flex;
                     gap: 16px;
-        
                     div {
                         width: 30px;
                         height: 30px;
                     }
                 }
             }
-            .navbar_tab_modal{
-                background-color: gray;
+            .modal_nav {
                 position: fixed;
+                overflow: scroll;
                 top: 0;
                 left: 0;
-                min-width: 320px;
+                display: fixed;
+                width: 320px;
                 height: 100vh;
-                overflow:scroll;
+                background-color: gray;
+                #close_button {
+                    position: absolute;
+                    right: 10px;
+                }
                 .container_main_left {
                     display: flex;
                     align-items: center;
                     gap: 20px;
-        
                     a {
                         color: black;
                     }
-        
                     div {
                         height: 40px;
-        
                         img {
                             border-radius: 8px
                         }
                     }
                 }
-
-
+                .header_nav {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    #usd_id_tab {
+                        padding: 15px;
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+                        position: relative;
+                        img {
+                            width: 15px;
+                            height: 15px;
+                        }
+                        .nav_usd_ul_tab {
+                            width: 150px;
+                            height: 0;
+                            opacity: 0;
+                            overflow: hidden;
+                            flex-direction: column;
+                            position: absolute;
+                            text-align: center;
+                            top: 54px;
+                            left: 10px;
+                            z-index: 199;
+                            background-color: white;
+                            transition: 500ms;
+                            li {
+                                padding: 10px;
+                                padding-left: 30px;
+                                padding-left: 5px;
+                                color: black;
+                                transition: 0.5s;
+                                &:hover {
+                                    background-color: #82b440;
+                                    color: white;
+                                }
+                            }
+                        }
+                        .active {
+                            height: inherit;
+                            opacity: 1;
+                            display: flex;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                        }
+                    }
+                    #english_id_tab {
+                        padding: 15px;
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+                        position: relative;
+                        img {
+                            width: 15px;
+                            height: 15px;
+                        }
+                        .nav_en_ul_tab {
+                            width: 150px;
+                            height: 0;
+                            opacity: 0;
+                            overflow: hidden;
+                            flex-direction: column;
+                            position: absolute;
+                            text-align: center;
+                            top: 54px;
+                            right: 20px;
+                            z-index: 199;
+                            background-color: white;
+                            transition: 500ms;
+                            li {
+                                padding: 10px;
+                                padding-left: 30px;
+                                padding-left: 5px;
+                                color: black;
+                                transition: 0.5s;
+                                &:hover {
+                                    background-color: #82b440;
+                                    color: white;
+                                }
+                            }
+                        }
+                        .active {
+                            height: inherit;
+                            opacity: 1;
+                            display: flex;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                        }
+                    }
+                }
+                .nav_icon {
+                    width: 30px;
+                    height: 30px;
+                }
+                .container_nav_tab {
+                    width: 76%;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    #nav_home {
+                        position: relative;
+                        padding: 20px;
+                        &:hover a {
+                            color: #82b440;
+                        }
+                        ul {
+                            display: none;
+                            position: absolute;
+                            top: 55px;
+                            left: 0;
+                        }
+                        &:hover ul {
+                            width: 260px;
+                            display: flex;
+                            flex-direction: column;
+                            background-color: white;
+                            color: white;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                            li {
+                                padding: 10px 0;
+                                padding-left: 20px;
+                                color: black;
+                                transition: transform 1000ms, ;
+                                &:hover {
+                                    transform: translateX(20px);
+                                    color: #82b440;
+                                }
+                            }
+                        }
+                    }
+                    #nav_shop {
+                        position: relative;
+                        padding: 20px;
+                        &:hover a {
+                            color: #82b440;
+                        }
+                        .container_shop {
+                            .xett {
+                                align-self: center;
+                                background-color: gray;
+                                width: 1px;
+                                height: 300px
+                            }
+                            position: absolute;
+                            top: 55px;
+                            left: -60px;
+                            width: 600px;
+                            display: none;
+                            gap: 20px;
+                            .ul_list {
+                                h3 {
+                                    padding: 20px;
+                                    padding-left: 10px;
+                                    font-size: 20px;
+                                }
+                                li {
+                                    padding: 10px 0;
+                                    padding-left: 10px;
+                                    color: black;
+                                    transition: transform 1000ms, ;
+                                    &:hover {
+                                        transform: translateX(20px);
+                                        color: #82b440;
+                                    }
+                                }
+                            }
+                        }
+                        &:hover .container_shop {
+                            background-color: white;
+                            display: flex;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                        }
+                    }
+                    #nav_blog {
+                        position: relative;
+                        padding: 20px;
+                        ul {
+                            display: none;
+                            position: absolute;
+                            top: 55px;
+                        }
+                        &:hover {
+                            color: #82b440;
+                        }
+                        &:hover ul {
+                            background-color: white;
+                            width: 260px;
+                            display: flex;
+                            flex-direction: column;
+                            color: white;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                            li {
+                                padding: 10px 0;
+                                padding-left: 20px;
+                                color: black;
+                                transition: transform 1000ms, ;
+                                &:hover {
+                                    transform: translateX(20px);
+                                    color: #82b440;
+                                }
+                            }
+                        }
+                    }
+                    #nav_about {
+                        position: relative;
+                        padding: 20px;
+                        ul {
+                            display: none;
+                            position: absolute;
+                            top: 55px;
+                        }
+                        &:hover {
+                            color: #82b440;
+                        }
+                        &:hover ul {
+                            width: 260px;
+                            background-color: white;
+                            display: flex;
+                            flex-direction: column;
+                            color: white;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                            li {
+                                padding: 10px 0;
+                                padding-left: 20px;
+                                color: black;
+                                transition: transform 1000ms, ;
+                                &:hover {
+                                    transform: translateX(20px);
+                                    color: #82b440;
+                                }
+                            }
+                        }
+                    }
+                    #nav_pages {
+                        position: relative;
+                        padding: 20px;
+                        ul {
+                            display: none;
+                            position: absolute;
+                            top: 55px;
+                        }
+                        &:hover {
+                            color: #82b440;
+                        }
+                        &:hover ul {
+                            background-color: white;
+                            width: 260px;
+                            display: flex;
+                            flex-direction: column;
+                            color: white;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                            li {
+                                padding: 10px 0;
+                                padding-left: 20px;
+                                color: black;
+                                transition: transform 1000ms, ;
+                                &:hover {
+                                    transform: translateX(20px);
+                                    color: #82b440;
+                                }
+                            }
+                        }
+                    }
+                    #nav_contact {
+                        position: relative;
+                        padding: 20px;
+                        ul {
+                            display: none;
+                            position: absolute;
+                            top: 55px;
+                        }
+                        &:hover {
+                            color: #82b440;
+                        }
+                        &:hover ul {
+                            background-color: white;
+                            width: 260px;
+                            display: flex;
+                            flex-direction: column;
+                            color: white;
+                            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                            li {
+                                padding: 10px 0;
+                                padding-left: 20px;
+                                color: black;
+                                transition: transform 1000ms, ;
+                                &:hover {
+                                    transform: translateX(20px);
+                                    color: #82b440;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

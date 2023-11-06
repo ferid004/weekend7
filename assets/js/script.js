@@ -15,6 +15,7 @@ usd_id.addEventListener('click', (e) => {
     header_usd_ul.classList.toggle('active')
 
 })
+
 english_id.addEventListener('click', (e) => {
     e.stopPropagation()
 
@@ -36,9 +37,45 @@ window.addEventListener('click', () => {
     }
 })
 
+
 //  header_end
+
+const usd_id_tab = document.getElementById('usd_id_tab')
+const english_id_tab = document.getElementById('english_id_tab')
+const nav_usd_ul_tab = document.querySelector('.nav_usd_ul_tab')
+const nav_en_ul_tab = document.querySelector('.nav_en_ul_tab')
+
+
+usd_id_tab.addEventListener('click', (e) => {
+    e.stopPropagation()
+    if (nav_en_ul_tab.classList.contains('active')) {
+        nav_en_ul_tab.classList.remove('active')
+    }
+
+    nav_usd_ul_tab.classList.toggle('active')
+
+})
+
+english_id_tab.addEventListener('click', (e) => {
+    e.stopPropagation()
+    if (nav_usd_ul_tab.classList.contains('active')) {
+        nav_usd_ul_tab.classList.remove('active')
+    }
+    nav_en_ul_tab.classList.toggle('active')
+
+})
+window.addEventListener('click', () => {
+
+    if (nav_usd_ul_tab.classList.contains('active')) {
+        nav_usd_ul_tab.classList.remove('active')
+    }
+    if (nav_en_ul_tab.classList.contains('active')) {
+        nav_en_ul_tab.classList.remove('active')
+    }
+})
+
 //  navbar_tab
-let hamburger=document.getElementById('hamburger')
+let hamburger = document.getElementById('hamburger')
 hamburger.addEventListener('click', () => {
     console.log('nikosh');
 })
